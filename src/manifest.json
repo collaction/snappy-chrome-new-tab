@@ -9,8 +9,8 @@
 	},
 	"author": "Collaction 小隊",
 	"homepage_url": "https://snappy.collaction.hk",
-	"version": "0.1.1",
-	"version_name": "Aberdeen Tunnel",
+	"version": "0.1.2",
+	"version_name": "Aberdeen Tunnel R2",
 	"chrome_url_overrides": {
 		"newtab": "newtab.html"
 	},
