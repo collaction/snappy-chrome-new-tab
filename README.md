@@ -39,5 +39,8 @@ Snappy 每天放送 is an Open Source project covered by the GNU General Public 
 
 ## Changelog
 
+### Braemar Hill (2017-06-06)
+* 新增 Google 搜尋欄
+
 ### Aberdeen Tunnel (2017-04-01)
 * First commit

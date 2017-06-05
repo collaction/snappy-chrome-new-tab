@@ -40,7 +40,7 @@ function install_notice() {
 function aboutPopup() {
 	sweetAlert({
 		title: "歡迎使用 Snappy 每天放送",
-		text: "只要開啟 Google Chrome 新分頁，Snappy 為您送上一張香港街景相片，每天更新一次。<br><br>您亦可以<a href=\"https://play.google.com/store/apps/details?id=hk.collaction.snappy&utm_source=collaction&utm_campaign=chrome_extension&utm_medium=popup\">下載手機應用程式</a>，拍下今昔對比照片，豐富相片資料庫。",
+		text: "版本 Braemar Hill<br/><br/>只要開啟 Google Chrome 新分頁，Snappy 為您送上一張香港街景相片，每天更新一次。<br><br>您亦可以<a href=\"https://play.google.com/store/apps/details?id=hk.collaction.snappy&utm_source=collaction&utm_campaign=chrome_extension&utm_medium=popup\">下載手機應用程式</a>，拍下今昔對比照片，豐富相片資料庫。",
 		confirmButtonText: "關於此計劃",
 		cancelButtonText: "明白",
 		confirmButtonColor: "#0099FF",

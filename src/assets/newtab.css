@@ -10,7 +10,7 @@ body {
 	font-family: 'PingFang TC', 'Heiti TC', 'Noto Sans CJK TC', 'Helvetica', 'Microsoft JhengHei', 'Arial', sans-serif;
 	background-color: #fff;
 	vertical-align: middle;
-	overflow-y: scroll;
+	overflow-y: scroll !important;
 	overflow-x: hidden;
 	height: 100%;
 	width: 100%;
@@ -35,6 +35,15 @@ img {
 	background-size: cover;
 	-webkit-animation-duration: 1.5s;
 	animation-duration: 1.5s;
+}
+
+.fk {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	height: 100%;
+	width: 100%;
 }
 
 .footer {
@@ -126,4 +135,53 @@ img {
 .fadeIn {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
+}
+
+.container .jumbotron {
+	background-color: #fff;
+	color: #212121;
+	padding: 0;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 2px;
+	border: 0;
+}
+
+.contenteditable-group.search-box {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.25rem;
+	color: #101010;
+}
+
+.contenteditable-group.search-box input {
+	padding: 16px 24px;
+}
+
+.contenteditable {
+	padding: 0;
+	background-color: inherit;
+	border: 0;
+	width: 100%;
+}
+
+.contenteditable:focus {
+	outline: none;
+}
+
+.elevation-1 {
+	-webkit-transition-property: box-shadow, -webkit-transform;
+	transition-property: box-shadow, -webkit-transform;
+	transition-property: box-shadow, transform;
+	transition-property: box-shadow, transform, -webkit-transform;
+	-webkit-transition-duration: .3s;
+	transition-duration: .3s;
+	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
+}
+
+.elevation-1:hover {
+	-webkit-transform: translateY(-3%);
+	transform: translateY(-3%);
 }

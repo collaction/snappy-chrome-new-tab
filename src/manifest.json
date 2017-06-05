@@ -9,11 +9,14 @@
 	},
 	"author": "Collaction 小隊",
 	"homepage_url": "https://snappy.collaction.hk",
-	"version": "0.1.2",
-	"version_name": "Aberdeen Tunnel R2",
+	"version": "1.0.0",
+	"version_name": "Braemar Hill",
 	"chrome_url_overrides": {
 		"newtab": "newtab.html"
 	},
+	"permissions": [
+		"notifications"
+	],
 	"background": {
 		"scripts": [
 			"assets/background.js"
